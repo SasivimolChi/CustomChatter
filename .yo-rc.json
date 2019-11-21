@@ -1,0 +1,10 @@
+{
+  "generator-mendix": {
+    "promptValues": {
+      "copyright": "CPF IT CENTER",
+      "license": "CPF IT CENTER",
+      "author": "SASIVIMOL CHINUDOMSUKSAKUL",
+      "boilerplate": "appstore"
+    }
+  }
+}

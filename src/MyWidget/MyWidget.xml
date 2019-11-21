@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="MyWidget.widget.MyWidget" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>MyWidget</name>
+    <description>The description of this widget.</description>
+
+    <icon />
+
+    <properties>
+         <!-- <property key="backgroundColor" type="string" required="true">
+            <caption>Background Color</caption>
+            <category>Appearance</category>
+            <description>The background color of the widget.</description>
+        </property>  -->
+        <!-- <property key="btnName" type="string" required="true" defaultValue="Click me">
+            <caption>Button Display</caption>
+            <category>Appearance</category>
+            <description>Display text on button.</description>
+        </property> -->
+          <property key="caption" type="string">
+            <caption>Caption</caption>
+            <category>Appearance</category>
+            <description>User overview caption</description>
+        </property>
+                 <property key="detail" type="string">
+            <caption>detail</caption>
+            <category>Appearance</category>
+            <description>User overview detail</description>
+        </property>
+           <property key="bgColor" type="string" required="false" defaultValue="#d00">
+            <caption>Background color</caption>
+            <category>Appearance</category>
+            <description>Hex value for the background color</description>
+        </property>
+        <property key="buttonClass" type="string" required="true" defaultValue="">
+            <caption>Button CSS Class</caption>
+            <category>Appearance</category>
+            <description>The CSS class(es) to be added to the button. Seperate multiple classes with spaces.</description>
+        </property>	
+        <property key="buttonClass1" type="string" required="true" defaultValue="">
+            <caption>Button </caption>
+            <category>Appearance</category>
+            <description>The CSS class(es) to be added to the button. Seperate multiple classes with spaces.</description>
+        </property>	
+        <property key="uListRefreshTime" type="integer" defaultValue="4000" required="true">
+            <caption>User list refresh time</caption>
+            <category>Configuration</category>
+            <description>The amount of milliseconds to refresh the user list</description>
+        </property>	
+                <property key="onClickEvent" type="enumeration" defaultValue="doNothing">
+            <caption>On click</caption>
+            <category>Events</category>
+            <description/>
+            <enumerationValues>
+                <enumerationValue key="doNothing">Do nothing</enumerationValue>
+                <enumerationValue key="showPage">Show a page</enumerationValue>
+                <enumerationValue key="callMicroflow">Call a microflow</enumerationValue>
+                <enumerationValue key="callNanoflow">Call a nanoflow</enumerationValue>
+            </enumerationValues>
+        </property>
+      
+   
+       
+        <!-- <property key="mfToExecute" type="microflow" required="false" defaultValue="">
+            <caption>Microflow</caption>
+            <category>Behavior</category>
+            <description>The microflow to execute on click.</description>
+            <returnType type="String" />
+        </property> -->
+    </properties>
+</widget>
+
